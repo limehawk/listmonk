@@ -22,3 +22,14 @@ max_lifetime = "300s"
 
 # Optional space separated Postgres DSN params. eg: "application_name=listmonk gssencmode=disable"
 params = ""
+
+# smtp2go messenger (https://www.smtp2go.com)
+# Sends emails via the smtp2go HTTP API.
+# Multiple [[smtp2go]] blocks can be defined for multiple providers.
+# [[smtp2go]]
+# enabled = false
+# name = "smtp2go"
+# api_key = "api-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+# max_conns = 10
+# timeout = "5s"
+# max_msg_retries = 2
