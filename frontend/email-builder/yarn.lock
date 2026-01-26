@@ -1140,9 +1140,9 @@ eslint-plugin-react-hooks@^4.6.0:
   integrity sha512-QzliNJq4GinDBcD8gPB5v0wh6g8q3SUi6EFF0x8N/BL9PoVs0atuGc47ozMRyOWAKdwaZ5OnbOEa3WR+dSGKuQ==
 
 eslint-plugin-react-refresh@^0.4.5:
-  version "0.4.14"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.14.tgz#e3c611ead69bbf7436d01295c853d4abb8c59f68"
-  integrity sha512-aXvzCTK7ZBv1e7fahFuR3Z/fyQQSIQ711yPgYRj+Oj64tyTgO4iQIDmYXDBqvSWQ/FA4OSCsXOStlF+noU0/NA==
+  version "0.4.26"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.26.tgz#2bcdd109ea9fb4e0b56bb1b5146cf8841b21b626"
+  integrity sha512-1RETEylht2O6FM/MvgnyvT+8K21wLqDNg4qD51Zj3guhjt433XbnnkVttHMyaVyAFD03QSV4LPS5iE3VQmO7XQ==
 
 eslint-plugin-simple-import-sort@^12.0.0:
   version "12.1.1"
