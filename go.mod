@@ -22,7 +22,7 @@ require (
 	github.com/knadh/koanf/providers/file v1.2.1
 	github.com/knadh/koanf/providers/posflag v1.0.1
 	github.com/knadh/koanf/providers/rawbytes v1.0.0
-	github.com/knadh/koanf/v2 v2.2.2
+	github.com/knadh/koanf/v2 v2.3.2
 	github.com/knadh/paginator v1.0.1
 	github.com/knadh/smtppool/v2 v2.0.2
 	github.com/knadh/stuffbin v1.3.0
