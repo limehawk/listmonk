@@ -45,6 +45,7 @@ import (
 	"github.com/knadh/listmonk/internal/media/providers/s3"
 	"github.com/knadh/listmonk/internal/messenger/email"
 	"github.com/knadh/listmonk/internal/messenger/postback"
+	"github.com/knadh/listmonk/internal/messenger/smtp2go"
 	"github.com/knadh/listmonk/internal/notifs"
 	"github.com/knadh/listmonk/internal/subimporter"
 	"github.com/knadh/listmonk/models"
@@ -711,6 +712,42 @@ func initPostbackMessengers(ko *koanf.Koanf) []manager.Messenger {
 		out = append(out, p)
 
 		lo.Printf("loaded Postback messenger: %s", name)
+	}
+
+	return out
+}
+
+// initSMTP2GoMessengers initializes and returns all the enabled
+// smtp2go messenger backends.
+func initSMTP2GoMessengers(ko *koanf.Koanf) []manager.Messenger {
+	items := ko.Slices("smtp2go")
+	if len(items) == 0 {
+		return nil
+	}
+
+	var out []manager.Messenger
+	for _, item := range items {
+		if !item.Bool("enabled") {
+			continue
+		}
+
+		// Read the smtp2go config.
+		var (
+			name = item.String("name")
+			o    smtp2go.Options
+		)
+		if err := item.UnmarshalWithConf("", &o, koanf.UnmarshalConf{Tag: "json"}); err != nil {
+			lo.Fatalf("error reading smtp2go config: %v", err)
+		}
+
+		// Initialize the Messenger.
+		m, err := smtp2go.New(o)
+		if err != nil {
+			lo.Fatalf("error initializing smtp2go messenger %s: %v", name, err)
+		}
+		out = append(out, m)
+
+		lo.Printf("loaded smtp2go messenger: %s", name)
 	}
 
 	return out

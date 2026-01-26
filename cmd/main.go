@@ -209,8 +209,8 @@ func main() {
 		// Crud core.
 		core = initCore(fbOptinNotify, queries, db, i18n, ko)
 
-		// Initialize all messengers, SMTP and postback.
-		msgrs = append(initSMTPMessengers(), initPostbackMessengers(ko)...)
+		// Initialize all messengers, SMTP, postback, and smtp2go.
+		msgrs = append(append(initSMTPMessengers(), initPostbackMessengers(ko)...), initSMTP2GoMessengers(ko)...)
 
 		// Campaign manager.
 		mgr = initCampaignManager(msgrs, queries, urlCfg, core, media, i18n, ko)
