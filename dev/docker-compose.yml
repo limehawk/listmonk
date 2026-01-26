@@ -2,7 +2,7 @@ version: "3"
 
 services:
   adminer:
-    image: adminer:4.8.1-standalone
+    image: adminer:4.17.1-standalone
     restart: always
     ports:
       - 8070:8080
