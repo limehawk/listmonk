@@ -110,6 +110,16 @@ type Settings struct {
 		MaxMsgRetries int    `json:"max_msg_retries"`
 	} `json:"messengers"`
 
+	SMTP2Go []struct {
+		UUID          string `json:"uuid"`
+		Enabled       bool   `json:"enabled"`
+		Name          string `json:"name"`
+		APIKey        string `json:"api_key,omitempty"`
+		MaxConns      int    `json:"max_conns"`
+		Timeout       string `json:"timeout"`
+		MaxMsgRetries int    `json:"max_msg_retries"`
+	} `json:"smtp2go"`
+
 	BounceEnabled        bool `json:"bounce.enabled"`
 	BounceEnableWebhooks bool `json:"bounce.webhooks_enabled"`
 	BounceActions        map[string]struct {
