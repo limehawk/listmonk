@@ -8,7 +8,7 @@ require (
 	github.com/coreos/go-oidc/v3 v3.17.0
 	github.com/disintegration/imaging v1.6.2
 	github.com/emersion/go-message v0.18.2
-	github.com/gdgvda/cron v0.4.0
+	github.com/gdgvda/cron v0.6.0
 	github.com/gofrs/uuid/v5 v5.3.2
 	github.com/gorilla/feeds v1.2.0
 	github.com/jmoiron/sqlx v1.4.0
