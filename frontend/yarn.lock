@@ -565,6 +565,11 @@
   resolved "https://registry.yarnpkg.com/@lezer/common/-/common-1.2.3.tgz#138fcddab157d83da557554851017c6c1e5667fd"
   integrity sha512-w7ojc8ejBqr2REPsWxJjrMFsA/ysDCFICn8zEOR9mrqzOu2amhITYuLD8ag6XZf0CFXDrhKqw7+tW8cX66NaDA==
 
+"@lezer/common@^1.3.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@lezer/common/-/common-1.5.0.tgz#db227b596260189b67ba286387d9dc81fb07c70b"
+  integrity sha512-PNGcolp9hr4PJdXR4ix7XtixDrClScvtSCYW3rQG106oVMOOI+jFb+0+J3mbeL/53g1Zd6s0kJzaw6Ri68GmAA==
+
 "@lezer/cpp@^1.0.0":
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@lezer/cpp/-/cpp-1.1.3.tgz#3029a542f4624fba0ed28f96511b34b8e7906352"
@@ -593,11 +598,11 @@
     "@lezer/lr" "^1.0.0"
 
 "@lezer/highlight@^1.0.0", "@lezer/highlight@^1.1.3", "@lezer/highlight@^1.2.0", "@lezer/highlight@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@lezer/highlight/-/highlight-1.2.1.tgz#596fa8f9aeb58a608be0a563e960c373cbf23f8b"
-  integrity sha512-Z5duk4RN/3zuVO7Jq0pGLJ3qynpxUVsh7IbUbGj88+uV2ApSAn6kWg2au3iJb+0Zi7kKtqffIESgNcRXWZWmSA==
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@lezer/highlight/-/highlight-1.2.3.tgz#a20f324b71148a2ea9ba6ff42e58bbfaec702857"
+  integrity sha512-qXdH7UqTvGfdVBINrgKhDsVTJTxactNNxLk7+UMwZhU13lMHaOBlJe9Vqp907ya56Y3+ed2tlqzys7jDkTmW0g==
   dependencies:
-    "@lezer/common" "^1.0.0"
+    "@lezer/common" "^1.3.0"
 
 "@lezer/html@^1.3.0":
   version "1.3.10"
