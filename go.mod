@@ -31,7 +31,7 @@ require (
 	github.com/paulbellamy/ratecounter v0.2.0
 	github.com/pquerna/otp v1.5.0
 	github.com/rhnvrm/simples3 v0.9.1
-	github.com/spf13/pflag v1.0.6
+	github.com/spf13/pflag v1.0.10
 	github.com/yuin/goldmark v1.7.12
 	github.com/zerodha/easyjson v1.0.1
 	github.com/zerodha/simplesessions/stores/postgres/v3 v3.0.0
