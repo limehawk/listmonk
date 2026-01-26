@@ -909,14 +909,6 @@
   resolved "https://registry.yarnpkg.com/@usewaypoint/block-spacer/-/block-spacer-0.0.3.tgz#6655628dd74085ffcf3fbcd0f0aa286e40e69a10"
   integrity sha512-CCcMtwcpeC2rHvawQdh5f0Hez7o4xA/edWl/6I3RuA6Yb6STyyrGjmPFs2ZxHQsLOGUK+0OvBenuHlSTCZwuuA==
 
-"@usewaypoint/block-text@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@usewaypoint/block-text/-/block-text-0.0.6.tgz#b08322300e9a9d69111c29d2183757cc8aab7cb9"
-  integrity sha512-tsKTNLXUYs1PkM8G5sgIhO3KnW1IFTx2q+lnq5Y4prHeHNBrArez5BbwAyvwBKnhcIt5c4gYL2CSklIU4+hLLw==
-  dependencies:
-    insane "^2.6.2"
-    marked "^12.0.2"
-
 "@usewaypoint/block-text@^0.0.7":
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/@usewaypoint/block-text/-/block-text-0.0.7.tgz#d35dd1ae546750f20f536d5e309fe7d8dea8a941"
@@ -930,10 +922,10 @@
   resolved "https://registry.yarnpkg.com/@usewaypoint/document-core/-/document-core-0.0.6.tgz#c97468c84c85ccac46a06f82ac332e20e415cfb7"
   integrity sha512-Hg10gszVCZRJhA4nIWwAi2rTXuoxPL+ATMe0hU243PFBIUZOwDIQus4XZSeoHsenMCq1uBFCRiFW4hl2+tVwgA==
 
-"@usewaypoint/email-builder@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@usewaypoint/email-builder/-/email-builder-0.0.8.tgz#457829481998e512b27afe3ab607c7fc48bc2f80"
-  integrity sha512-gP1Us3n/rh9GoCnJRHN8INqYD9qPJ0wErm0SCjz6ng8IGSBBL+k0fFKD7l1mT3BflZSjCl6heqRDu9aRw1AcFw==
+"@usewaypoint/email-builder@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@usewaypoint/email-builder/-/email-builder-0.0.9.tgz#e3a6fe15e60ade19e01b71cafbd5af89faa65016"
+  integrity sha512-cw7C1u0YQBy2glhGyK39Vi8hVWlHZjQG5uYGsYc+aw1+tPdEv+xqle0zJffcmbASy97ybQwSmYjkdy7luagMsA==
   dependencies:
     "@usewaypoint/block-avatar" "^0.0.3"
     "@usewaypoint/block-button" "^0.0.3"
@@ -944,7 +936,7 @@
     "@usewaypoint/block-html" "^0.0.3"
     "@usewaypoint/block-image" "^0.0.5"
     "@usewaypoint/block-spacer" "^0.0.3"
-    "@usewaypoint/block-text" "^0.0.6"
+    "@usewaypoint/block-text" "^0.0.7"
     "@usewaypoint/document-core" "^0.0.6"
 
 "@vitejs/plugin-react-swc@^3.5.0":
