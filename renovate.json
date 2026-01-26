@@ -1,19 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended", "mergeConfidence:all-badges"],
+  "extends": ["config:recommended"],
   "dependencyDashboard": true,
   "ignoreTests": true,
   "packageRules": [
     {
-      "matchConfidence": ["high", "very high"],
-      "automerge": true,
-      "description": "Automerge updates with high confidence"
-    },
-    {
-      "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
-      "description": "Automerge devDeps (cannot break production)"
+      "description": "Automerge minor and patch updates"
     }
   ]
 }
