@@ -62,6 +62,8 @@ github.com/josharian/intern v1.0.0 h1:vlS4z54oSdjm0bgjRigI+G1HpF+tI+9rE5LLzOg8Hm
 github.com/josharian/intern v1.0.0/go.mod h1:5DoeVV0s6jJacbCEi61lwdGj/aVlrQvzHFFd8Hwg//Y=
 github.com/knadh/go-pop3 v1.0.0 h1:ICAINSl+uqwwCW6p7RjhY+AbPWC2KMLtdQCpuiSqe1g=
 github.com/knadh/go-pop3 v1.0.0/go.mod h1:a5kUJzrBB6kec+tNJl+3Z64ROgByKBdcyub+mhZMAfI=
+github.com/knadh/go-pop3 v1.0.2 h1:gbdtwzEYedLVos/vpebM2d73NTyZxEgjgRJ4S77HlzM=
+github.com/knadh/go-pop3 v1.0.2/go.mod h1:3gKw2jmrEa1lYLVtP1yEoo6bkkJ4XHDySPy8xaSjG0s=
 github.com/knadh/goyesql/v2 v2.2.0 h1:DNQIzgITmMTXA+z+jDzbXCpgr7fGD6Hp0AJ7ZLEAem4=
 github.com/knadh/goyesql/v2 v2.2.0/go.mod h1:is+wK/XQBukYK3DdKfpJRyDH9U/ZTMyX2u6DFijjRnI=
 github.com/knadh/koanf/maps v0.1.2 h1:RBfmAW5CnZT+PJ1CVc1QSJKf4Xu9kxfQgYVQSu8hpbo=
