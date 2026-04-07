@@ -47,7 +47,7 @@
     "@types/js-beautify": "^1.14.3",
     "@vitejs/plugin-vue2": "^2.3.1",
     "@vue/eslint-config-airbnb": "^8.0.0",
-    "cypress": "15.9.0",
+    "cypress": "15.13.0",
     "cypress-file-upload": "^5.0.2",
     "cypress-wait-until": "^3.0.2",
     "eslint": "^10.0.0",
