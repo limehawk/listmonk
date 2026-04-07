@@ -27,7 +27,7 @@ require (
 	github.com/knadh/koanf/v2 v2.3.4
 	github.com/knadh/paginator v1.0.1
 	github.com/knadh/paginator/v2 v2.0.1
-	github.com/knadh/smtppool/v2 v2.0.2
+	github.com/knadh/smtppool/v2 v2.1.0
 	github.com/knadh/stuffbin v1.3.0
 	github.com/labstack/echo/v4 v4.15.1
 	github.com/labstack/echo/v5 v5.1.0
