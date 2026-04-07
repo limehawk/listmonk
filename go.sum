@@ -90,6 +90,7 @@ github.com/knadh/koanf/v2 v2.3.2 h1:Ee6tuzQYFwcZXQpc2MiVeC6qHMandf5SMUJJNoFp/c4=
 github.com/knadh/koanf/v2 v2.3.2/go.mod h1:gRb40VRAbd4iJMYYD5IxZ6hfuopFcXBpc9bbQpZwo28=
 github.com/knadh/paginator v1.0.1 h1:mzbhjx167qRpvv9ym7BBaaNa1//qXU2YKk7mTmSmW9o=
 github.com/knadh/paginator v1.0.1/go.mod h1:NDzJofYUQiHbDrWukKRi3E2vIKb0dzOZKY8VmxbM2Sk=
+github.com/knadh/paginator/v2 v2.0.1/go.mod h1:Vw3XTxOpKQyYNiv+eKMtemEz6iHBBs4yWygPDpdOcBo=
 github.com/knadh/smtppool/v2 v2.0.2 h1:8nE1NkG/SP4wUgyXK8C+FuJB6JnQ9pJ6MeAiUZxjb+o=
 github.com/knadh/smtppool/v2 v2.0.2/go.mod h1:D7HcfSS8Xd3jpZ9LRwQ3aGdqp9FzFE66uW6w/BTpy4E=
 github.com/knadh/stuffbin v1.3.0 h1:HaVSuYV+KnrlCHl7DrLNyOCgpTU2K8x5Hb+J4Ck3gww=
