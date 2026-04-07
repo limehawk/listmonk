@@ -84,7 +84,7 @@ jobs:
           LISTMONK_VERSION: nightly-${{ steps.tag.outputs.date }}
 
       - name: Run GoReleaser
-        uses: goreleaser/goreleaser-action@v6
+        uses: goreleaser/goreleaser-action@v7
         with:
           version: latest
           args: release --snapshot --parallelism 1 --clean --config .goreleaser-nightly.yml
