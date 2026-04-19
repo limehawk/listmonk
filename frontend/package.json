@@ -43,7 +43,7 @@
     "vuex": "^4.0.0"
   },
   "devDependencies": {
-    "altcha": "^2.3.0",
+    "altcha": "^3.0.0",
     "@types/js-beautify": "^1.14.3",
     "@vitejs/plugin-vue2": "^2.3.1",
     "@vue/eslint-config-airbnb": "^8.0.0",
